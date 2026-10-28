@@ -37,18 +37,18 @@ pip install python-pptx
 
 ## フォルダ構成
 
-subtitle_ppt.zipを解凍してデスクトップ上にsubtitle_pptフォルダを作成してください。
-
+gogeki-subtitle-pptx-master.zip を解凍してデスクトップ上に gogeki-subtitle-pptx-master フォルダを作成してください。
 
 ## 字幕ファイルの作成
 
-subtitle.txtの中に字幕ファイルを入力してください
+まずは `subtitle_example.txt` をコピーして `subtitle.txt` を作成してください。
+subtitle.txtの中に字幕を入力してください
 
 ## 実行方法
 
-### 1. subtitle_pptフォルダを開く
+### 1. gogeki-subtitle-pptx-master フォルダを開く
 
-デスクトップの「subtitle_ppt」フォルダを開きます。
+デスクトップの「gogeki-subtitle-pptx-master」フォルダを開きます。
 
 ### 2. ターミナルを開く
 
@@ -63,7 +63,6 @@ subtitle.txtの中に字幕ファイルを入力してください
 ```bash
 python make_ppt.py
 ```
-
 
 ## PowerPointの生成
 
